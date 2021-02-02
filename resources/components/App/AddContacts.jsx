@@ -1,7 +1,8 @@
-import React from 'react'
+import React,{ Component } from 'react'
 
 
-class AddContacts extends React.Component {
+class AddContacts extends Component {
+    
     render(){
         return (
             <div>
