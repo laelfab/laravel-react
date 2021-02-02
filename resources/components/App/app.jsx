@@ -13,14 +13,12 @@ const App = () =>  {
                 <Nav/>
                 <Switch>
                     <Route path="/" exact component={Contacts} />
-                    <Route path="/ajouter-un-contact" exact component={AddContacts} />
+                    <Route path="/ajouter-un-contact" component={AddContacts}/>
                 </Switch>
             </>
         </Router>
         )
 }
-    
-
 
 export default App;
 
